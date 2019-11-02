@@ -6,7 +6,10 @@ These projects demonstrate hand gesture recognition using OpenCV.
 Currently, there are two different projects for the recognition of different hand gestures. 
 The more detailed explanation about them is given bellow.
 
-The `mouseControler.py` will recognize your fingers and control the mouse according to your finger movements. Basically, it will detect the blue color by specified RGB color range, so you need to stick two red-colored objects to your fingers because the mouse will activate only when it will detect two objects and you need to maintain a certain distance between any two figures then it will calculate the center of those objects. After that, it will find the midpoint of the distance between those points and put a red color point on that. Now the mouse pointer will move according to the red color point. Now the click operation will activate when it detects a single object. So you need to let your fingers close to each other then the program will detect the blue-colored object as a singular object.  Then we can perform some drag and drop at file by a single pinch.
+
+[MouseControler.py](https://github.com/UditTarini/Hand_Gesture_Recognition/blob/master/MouseControler.py)
+
+The `mouseControler.py` will recognize your fingers and control the mouse according to your finger movements. Basically, it will detect the blue color by specified RGB color range, so you need to stick two blue-colored objects to your fingers because the mouse will activate only when it will detect two objects and you need to maintain a certain distance between any two figures then it will calculate the center of those objects. After that, it will find the midpoint of the distance between those points and put a red color point on that. Now the mouse pointer will move according to the red color point. Now the click operation will activate when it detects a single object. So you need to let your fingers close to each other then the program will detect the blue-colored object as a singular object.  Then we can perform some drag and drop at file.
 ####  Requirements
 * ##### OpenCV
    `pip install opencv-python`
@@ -16,6 +19,9 @@ The `mouseControler.py` will recognize your fingers and control the mouse accord
    `pip install pynput`
 * ##### wx
    `pip install -U wxPython`
+
+[NumberCounter.py](https://github.com/UditTarini/Hand_Gesture_Recognition/blob/master/NumberCounter.py)
+
 
 The `numberCounter.py` will recognise your hand and count the number of fingers. 
 This one implements Computer Vision 
