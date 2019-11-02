@@ -102,8 +102,7 @@ while cap.isOpened():
             else:
                 if arearatio < 12:
                     cv2.putText(frame, '0', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
-                elif arearatio < 17.5:
-                    cv2.putText(frame, 'Best of luck', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
+
 
                 else:
                     cv2.putText(frame, '1', (0, 50), font, 2, (0, 0, 255), 3, cv2.LINE_AA)
